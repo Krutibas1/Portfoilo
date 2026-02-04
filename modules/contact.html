@@ -1,23 +1,23 @@
-<div>
+<section class="contact-section">
     <h2>Contact Me</h2>
-        <p>Your Email ID, Contact number, Address and <span> location</span> </p>
+    <p>Your Email ID, Contact number, Address and <span>location</span></p>
 
-        <div>
-            <form action="">
-                <div>
-                    <div>
-                        <input type="text" name="name" placeholder="Your name">
-                    </div>
-                    <div>
-                        <input type="email" name="email" placeholder="you@gmail.com">
-                    </div>
+    <div class="contact-container">
+        <form class="contact-form">
+            <div class="input-row">
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Your name" required>
                 </div>
-
-                <div>
-                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                <div class="input-group">
+                    <input type="email" name="email" placeholder="you@gmail.com" required>
                 </div>
+            </div>
 
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-</div>
+            <div class="input-group full">
+                <textarea name="message" id="message" placeholder="Enter Message" required></textarea>
+            </div>
+
+            <button type="submit" class="contact-btn">Submit</button>
+        </form>
+    </div>
+</section>
